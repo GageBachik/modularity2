@@ -73,3 +73,41 @@
 	border: none;
 }
 /* Buttons */
+
+/*Navigation*/
+
+.nav > ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: table;
+	background-color: #ED828A;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.nav > ul > li {
+	display: table-cell;
+	font-size: 16px;
+	z-index: 10;
+	text-align: center;
+}
+
+.nav > ul > li > a {
+	display: block;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	background-color: #ED828A;
+	color: white;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+}
+.nav > ul > li > a:hover {
+	background-color: #C34B67;
+}
+
+/*Navigation*/
