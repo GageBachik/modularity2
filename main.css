@@ -140,3 +140,30 @@
 }
 
 /* Pagination Control */
+
+/* Comment Stream */
+
+.comment-container{
+	height: 94px;
+}
+
+.comment-container-nested{
+	height: 74px;
+}
+
+.comment-object {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.comment-body {
+	overflow: hidden;
+}
+
+time {
+	color: #CCC;
+	font-size: 12px;
+}
+
+/* Comment Stream */
