@@ -111,3 +111,32 @@
 }
 
 /*Navigation*/
+
+/* Pagination Control */
+
+.pagination > li {
+	display: inline-block;
+	font-size: 16px;
+    border-bottom: 3px solid;
+    border-color: #ED828A;
+    padding-left: .4em;
+    padding-right: .4em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+.pagination > li > a {
+	color: #ED828A;
+	text-decoration: none;
+}
+
+.pagination > li:first-child, .pagination > li:last-child{
+	border: none;
+}
+
+.pagination > li.selected{
+	color: #CCCCCC;
+    border-color: #CCCCCC;
+}
+
+/* Pagination Control */
