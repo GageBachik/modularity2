@@ -19,3 +19,11 @@
 }
 
 /*Vertically Spaced*/
+
+/*Horizontally List*/
+
+.horizontal-list > *{
+	display: inline-block;
+}
+
+/*Horizontally List*/
