@@ -1,1 +1,12 @@
-/* ADD YOUR STYLES HERE */
+/*Horizontally Spaced*/
+
+.horizonatlly-spaced {
+	text-align: center;
+}
+
+.horizonatlly-spaced > * {
+	display: inline-block;
+	padding: 1.5em;
+	vertical-align: top;
+}
+/*Horizontally Spaced*/
