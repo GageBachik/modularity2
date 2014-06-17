@@ -10,3 +10,12 @@
 	vertical-align: top;
 }
 /*Horizontally Spaced*/
+
+/*Vertically Spaced*/
+
+.vertically-spaced {
+	margin-top: 6em;
+	margin-bottom: 6em;
+}
+
+/*Vertically Spaced*/
