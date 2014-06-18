@@ -167,3 +167,58 @@ time {
 }
 
 /* Comment Stream */
+
+/*Tabs*/
+
+.tabs {
+	list-style: none;
+	margin-left: 10px;
+	padding: 0;
+	border: none;
+	height: 1.5em;
+}
+
+.tabs li {
+	float: left;
+	font-size: 13px;
+	font-weight: bolder;
+	z-index: 10;
+	margin-right:0.5em; 
+}
+
+.tabs li a{
+	display: block;
+	padding: .5em;
+	padding-left: .7em;
+	padding-right: .7em;
+	text-decoration: none;
+	border: 1px solid #CCC;
+	border-bottom: 0; 
+	color: blue;
+	text-align: center;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	
+}
+
+.tabs li a div{
+	margin-bottom: .2em;
+}
+
+body > div > ol > li:nth-child(8) > div > ul > li:nth-child(2) > a {
+	z-index: 9999999;
+	border-bottom: solid;
+	border-bottom: 1px solid #FFF;
+	position: relative;
+}
+
+.tab-content{
+	display: inline-block;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	padding: .6em;
+	position: relative;
+	top: -1px;
+}
+
+/*Tabs*/
